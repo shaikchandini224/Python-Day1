@@ -1,0 +1,7 @@
+a = int(input())
+if a >= 18 and a < 100:
+    print("ELIGIBLE")
+elif a < 0:
+    print("INVALID")
+else:
+    print("NOT ELIGIBLE")
